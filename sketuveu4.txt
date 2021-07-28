@@ -1,0 +1,1 @@
+{"resultat":{"pce":{"id_pce":"24321562948409"},"donnees_techniques":{"situation_compteur":{"numero_rue":"11","nom_rue":"RUE SERANE","complement_adresse":null,"code_postal":"34000","commune":"MONTPELLIER"},"caracteristiques_compteur":{"frequence":"1M","client_sensible_mig":"Non"},"pitd":{"identifiant_pitd":"GD0511","libelle_pitd":"MONTPELLIER"}},"statut_restitution":null}}

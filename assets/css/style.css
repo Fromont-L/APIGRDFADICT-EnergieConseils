@@ -1,0 +1,445 @@
+@font-face{
+	font-family: 'redhat';
+	src: url(../font/RedHatDisplay-Regular.ttf);
+  font-family: 'roboto';
+	src: url(../font/Roboto-Regular.ttf);
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body
+{
+  height: 100vh;
+  font-family: "roboto";
+}
+.index_body
+{
+	background-color: rgba(10, 71, 128, 0.7);
+}
+
+a{
+	text-decoration: none;
+}
+
+.big_title
+{
+    margin-top: 20px;
+   text-align: center;
+   font-family: "redhat";
+   color: #F49A30;
+   font-weight: bold;
+}
+/* FORMULAIRE */
+/* STRUCTURE */
+  .connecter_title
+  {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: #F49A30;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: "redhat";
+  }
+ .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }
+
+  form > ::placeholder
+  {
+    font-style: italic;
+  }
+  .fas{
+    font-size: 2.5em;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding-right: 20px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    margin-top: 3em;
+  }
+
+  #formFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+  }
+.already-subscribed
+{
+    margin-top: 25px;
+}
+  /* TABS */
+
+  h2.inactive {
+    color: #cccccc;
+  }
+
+  h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+  }
+
+  /* FORM TYPOGRAPHY*/
+
+  input[type=button], input[type=submit], input[type=reset], button.subscribe {
+    background-color: #0069D9;
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1em;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button.subscribe:hover {
+    background-color: #39ace7;
+  }
+
+  input[type=button]:active, input[type=submit]:active, input[type=reset]:active, button.subscribe {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+  input[type=text], input[type=password]  {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+  }
+
+  input[type=text]:placeholder,input[type=password]::placeholder {
+    color: #cccccc;
+  }
+
+  /* ANIMATIONS */
+
+  /* Simple CSS3 Fade-in-down Animation */
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
+  /* Simple CSS3 Fade-in Animation */
+  @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+  .fadeIn {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+  }
+
+  .fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+
+  .fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    margin-bottom: 3em;
+  }
+
+  .fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-bottom: 2em;
+  }
+
+  .fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+
+  /* Simple CSS3 Fade-in Animation */
+  .underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+  }
+
+  .underlineHover:hover {
+    color: #0d0d0d;
+  }
+
+  .underlineHover:hover:after{
+    width: 100%;
+  }
+
+  /* OTHERS */
+
+  *:focus {
+      outline: none;
+  }
+
+  #icon {
+    width:auto;
+  }
+
+  /* BOITE ALERTE */
+
+  .alert{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    margin: 30px 0;
+    background: #BB174E;
+    color: white;
+    width: auto;
+  }
+
+  .alert ul{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .alert li{
+    margin-top: 7px;
+    margin-left: 7px;
+  }
+
+  .favicon-error{
+    margin-right: 8px;
+  }
+
+  .alert p{
+    margin: 0;
+  }
+/* Landing page */
+table,th,tr{
+	border:solid 2px black ;
+}
+.sub
+{
+	text-align: center;
+}
+.searchdiv
+{
+	padding: 20px;
+}
+.cherche
+{
+	background: #0069D9;
+border-radius: 10px;
+	width: 155px;
+	color:white;
+	font-weight:;
+}
+.cher{
+	background: rgba(104, 102, 103, 0.15);
+border-radius: 10px;
+margin-bottom:8px;
+
+}
+.row-categorieaccordeon {
+	background: #F49A30;
+border-radius: 10px;
+	color: #fff;
+	height:45px;
+margin-bottom:10px;
+}
+.panel-title{
+	text-align: center;
+}
+
+/*partie création d'un membre*/
+.land{
+	background-color:#F3ECD7 !important;
+}
+.landing-inner-container{
+	background-color: #447CEB;
+}
+
+.landing-inner-container h1{
+	color: white;
+	text-align: center;
+}
+
+.landing-inner-container h2{
+	color: white;
+}
+
+h2.landing-h2{
+	text-align: center;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.container-management{
+	margin: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fav-creer{
+	margin-left: 7px;
+}
+
+div.alert-table{
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding: 20px;
+	background: #1EC73F;
+	color: white;
+	width: 40%;
+}
+
+/* BOUTONS DECONNEXION */
+.already-subscribed p{
+		color: #fff;
+	}
+
+	.already-subscribed button{
+		color: #33333D;
+		background: #fff;
+
+	}
+
+	.already-subscribed button:hover{
+		background: #efefef;
+	}
+}
+@media(min-width: 1080px){
+	table td:last-child {
+	    text-align: right;
+	    padding-right: 20px;
+	}
+}
+
+/* Résultat boîte pour Consulter mes Droits d'Accès / Spécifiques  */
+.boxresult {
+  border: solid black 2px;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+  /* RESPONSIVE */
+  @media screen and (max-width: 370px)
+  {
+    input[type=submit]
+    {
+      font-size: 1rem;
+      text-align: center;
+      padding: 10px;
+    }
+  }
