@@ -85,19 +85,4 @@
 		?>
 		</div>
 	</div>
-
-	<div class="container">
-		<div class="col-12">
-			<p><?= $cmd ?></p>
-			<p><?php
-			if(isset($output)){
-				echo var_dump(json_fix(utf8_encode($output[0])));		
-			}
-			?></p>
-		</div>
-	</div>
 </div>
-<br/>
-<br/>
-<br/>
-<br/>

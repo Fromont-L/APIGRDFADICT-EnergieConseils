@@ -12,7 +12,7 @@
 	}
 
 	//Création de la base de donnée
-	$sql = "CREATE DATABASE GRDFADICTEnergieConseils";
+	$sql = "CREATE DATABASE GRDFADICTEnergieConseils CHARACTER SET utf8 COLLATE utf8_general_ci";
 	if ($conn->query($sql) === TRUE) {
 		echo "Base de données créée avec succès ! ";
 	} else {

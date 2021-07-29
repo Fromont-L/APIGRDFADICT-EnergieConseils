@@ -19,7 +19,7 @@
 		
 		/* Public class methods (functions) */
 
-		/* Pour avoir la possibilité de créer un compte, veiller à ajouter les fonctions suivantes : isNameValid(), isPasswdValid(), getIdFromName(), et si vous voulez toute la panoplie pour éditer/supprimer ajouter les fonctions suivantes : editAccount(), isIdValid, deleteAccount() */
+		/* Pour avoir la possibilité de créer un compte, veiller à ajouter les fonctions suivantes : et si vous voulez toute la panoplie pour éditer/supprimer ajouter les fonctions suivantes : editAccount() */
 
 		/* Add a new account to the system and return its ID (the account_id column of the accounts table) */
 		public function addAccount(string $name, string $passwd): int 

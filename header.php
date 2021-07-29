@@ -13,11 +13,13 @@
 			<li class="nav-item mx-3">
 				<a class="nav-link btn btn-info" href="https://www.gazelectricitemoinschers.fr" target="_blank">Visiter le site d'Energie-Conseils</a>
 			</li>
-			<li class="nav-item mx-3">
-				<?php if($admin) { ?>
-				<a class="nav-link btn btn-success" href="tabs.php">Au boulot !</a>
-				<?php } ?>
-			</li>
+			<?php if($login) { ?>
+				<li class="nav-item mx-3">
+					<?php if($admin) { ?>
+					<a class="nav-link btn btn-success" href="tabs.php">Au boulot !</a>
+					<?php } ?>
+				</li>
+			<?php } ?>
 			<?php if($login) { ?>
 				<li class="nav-item mx-3">
 				<?php if($admin) { ?>

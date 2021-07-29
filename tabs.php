@@ -76,24 +76,26 @@
 						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDroitAcces', this, '#41CE21')" id="BoutonConsulterDroitAcces">Consulter Droit d'Accès</button>
 						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDroitAccesSpecifiques', this, '#41CE21')" id="BoutonConsulterDroitAccesSpecifiques">Consulter Droit Accès Spécifiques</button>
 
+						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDonneesContractuelles', this, '#41CE21')" id="BoutonConsulterDonneesContractuelles">Consulter Données Contractuelles</button>
+						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDonneesTechniques', this, '#41CE21')" id="BoutonConsulterDonneesTechniques">Consulter Données Techniques</button>
+
 						<button class="tablink btn btn-sm" onclick="openPage('ConsulterConsommationsPubliees', this, '#41CE21')" id="BoutonConsulterConsommationsPubliees">Consulter Consommation Publiées</button>
 						<button class="tablink btn btn-sm" onclick="openPage('ConsulterConsommationsInformatives', this, '#41CE21')" id="BoutonConsulterConsommationsInformatives">Consulter Consommations Informatives</button>
 
-						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDonneesContractuelles', this, '#41CE21')" id="BoutonConsulterDonneesContractuelles">Consulter Données Contractuelles</button>
-						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDonneesTechniques', this, '#41CE21')" id="BoutonConsulterDonneesTechniques">Consulter Données Techniques</button>
 					</ul>
 				</div>
 			</nav>
 
 			<div id="RecupererAccessToken" class="tabcontent">
-			  <h3>Récupérer un Access Token</h3>
-			  <?php include 'access_token2.php' ?>
+				<h3>Récupérer un Access Token</h3>
+				<p>Copiez-collez le pour le rentrer dans les autres pages</p>
+				<?php include 'access_token2.php' ?>
 			</div>
 
 			<div id="DeclarerDroitAcces" class="tabcontent">
-			  <h3>DeclarerDroitAcces</h3>
-			  <p>Déclarez votre droit d'accès</p>
-			  <?php include 'declarer_droit_acces2.php'?>
+				<h3>DeclarerDroitAcces</h3>
+				<p>Déclarez votre droit d'accès</p>
+				<?php include 'declarer_droit_acces2.php'?>
 			</div>
 
 			<div id="ConsulterDroitAcces" class="tabcontent">
@@ -108,18 +110,6 @@
 				<?php include 'consulter_droit_acces_specifiques2.php' ?>
 			</div>
 
-			<div id="ConsulterConsommationsPubliees" class="tabcontent">
-				<h3>Consulter les Consommations Publiées</h3>
-				<p>Affiche les résultats mois par mois des consommations de gaz</p>
-				<?php include 'consulter_consommations_publiees2.php' ?>
-			</div>
-
-			<div id="ConsulterConsommationsInformatives" class="tabcontent">
-			  <h3>Consulter les Consommations informatives</h3>
-			  <p>Affiche les résultats jour par jour des consommations de gaz</p>
-			  <?php include 'consulter_consommations_informatives2.php' ?>
-			</div>
-
 			<div id="ConsulterDonneesContractuelles" class="tabcontent">
 			  <h3>Consulter les Données Contractuelles du client</h3>
 			  <p>Affiche les données contractuelles</p>
@@ -132,7 +122,18 @@
 			  <?php include 'consulter_donnees_techniques2.php' ?>
 			</div>
 
-			<?php include 'footer.php'?>
+			<div id="ConsulterConsommationsPubliees" class="tabcontent">
+				<h3>Consulter les Consommations Publiées</h3>
+				<p>Affiche les résultats mois par mois des consommations de gaz</p>
+				<?php include 'consulter_consommations_publiees2.php' ?>
+			</div>
+
+			<div id="ConsulterConsommationsInformatives" class="tabcontent">
+			  <h3>Consulter les Consommations informatives</h3>
+			  <p>Affiche les résultats jour par jour des consommations de gaz</p>
+			  <?php include 'consulter_consommations_informatives2.php' ?>
+			</div>
+
 		</div>
 
 		<script src="assets/javascript/script.js"></script>

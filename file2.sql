@@ -42,5 +42,7 @@ ALTER TABLE `account_sessions`
 
 
 INSERT INTO accounts (account_name, account_passwd, account_reg_time, account_enabled, account_is_admin) VALUES
-	('Jacky', '$2y$10$twVgCZe8wFvmKQF7kJjQ3.drugQLj3lWZ/6DfhnSUAZ4X2LjJRHz.', CURRENT_TIMESTAMP, '1', TRUE),
-	('Jose', '$2y$10$twVgCZe8wFvmKQF7kJjQ3.drugQLj3lWZ/6DfhnSUAZ4X2LjJRHz.', CURRENT_TIMESTAMP, '1', FALSE);
+	('GuébertPatrick', '$2y$10$.Fvh1Lo3d1uiz8G8KGpO3ONWz5BiCVnpXQWapQFsSniloq/psDISa', CURRENT_TIMESTAMP, '1', TRUE),
+	('Collègue1', '$2y$10$twVgCZe8wFvmKQF7kJjQ3.drugQLj3lWZ/6DfhnSUAZ4X2LjJRHz.', CURRENT_TIMESTAMP, '1', FALSE),
+	('Collègue2', '$2y$10$twVgCZe8wFvmKQF7kJjQ3.drugQLj3lWZ/6DfhnSUAZ4X2LjJRHz.', CURRENT_TIMESTAMP, '1', FALSE),
+	('Collègue3', '$2y$10$twVgCZe8wFvmKQF7kJjQ3.drugQLj3lWZ/6DfhnSUAZ4X2LjJRHz.', CURRENT_TIMESTAMP, '1', FALSE);
