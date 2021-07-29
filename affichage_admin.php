@@ -75,7 +75,7 @@
 									if ($row['account_id'] != 1) { ?>
 										<a class="btn btn-danger btn-sm" href="<?= 'supprimer_compte.php?id=' . $row['account_id'] ?>">Supprimer</a>
 									<?php } else { ?>
-										<a class="btn btn-dark btn-sm disabled" href="<?= 'supprimer_compte.php?id=' . $row['account_id'] ?>">Ne pas toucher</a>
+										<a class="btn btn-dark btn-sm disabled" href="affichage_admin">Ne pas toucher</a>
 								<?php } ?>
 							</td>
 						</tr>
