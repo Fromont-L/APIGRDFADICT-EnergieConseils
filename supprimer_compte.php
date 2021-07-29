@@ -61,10 +61,9 @@
 					<p id="text-CRUD" class="text-center">Êtes-vous sûr de vouloir supprimer ce compte ?</p>
 					<div class="form-actions">
 						<button class="btn btn-danger btn-lg btn-block my-3" type="submit">Oui :'(</button>
-						<a class="btn btn-secondary btn-lg btn-block my-3" href="index.php">Annuler</a>
+						<a class="btn btn-secondary btn-lg btn-block my-3" href="affichage_admin.php">Annuler</a>
 					</div>
 			</form>
-			<img id="image_poubelle" class="rounded my-3 mx-auto d-block" src="assets/image/poubelle.jpg"/>
 		</div>
 		
 		<script src="assets/javascript/script.js"></script>
