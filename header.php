@@ -3,10 +3,10 @@
 	<img src="assets/image/tricatel_logo.jpg" width="48" height="48" class="d-inline-block align-center" alt="" loading="lazy">
 	API GRDF
 	</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"aria-controls="navbarNav" aria-expended="false">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1"aria-controls="navbarNav1" aria-expended="false">
 		<span class="navbar-toggler-icon"></span>
 	</button>
-	<div class="collapse navbar-collapse" id="navbarNav">
+	<div class="collapse navbar-collapse" id="navbarNav1">
 		<ul class="navbar-nav mr-auto">
 		</ul>
 		<ul class="navbar-nav mx-3">

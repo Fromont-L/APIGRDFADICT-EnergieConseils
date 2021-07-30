@@ -63,10 +63,10 @@
 		
 		<div class="container">
 			<nav class="tab navbar sticky-top navbar-expand-lg navbar-light bg-header">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"aria-controls="navbarNav" aria-expended="false">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2"aria-controls="navbarNav2" aria-expended="false">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="collapse navbar-collapse" id="navbarNav2">
 					<ul class="navbar-nav mr-auto">
 					</ul>
 					<ul class="navbar-nav mx-3">
