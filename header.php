@@ -14,18 +14,19 @@
 				<a class="nav-link btn btn-info" href="https://www.gazelectricitemoinschers.fr" target="_blank">Visiter le site d'Energie-Conseils</a>
 			</li>
 			<?php if($login) { ?>
-				<li class="nav-item mx-3">
-					<?php if($admin) { ?>
-					<a class="nav-link btn btn-success" href="tabs.php">Au boulot !</a>
+					<?php if($admin && !isset($pageTabsAffichee)) { ?>
+					<li class="nav-item mx-3">
+						<a class="nav-link btn btn-success" href="tabs.php">Au boulot !</a>
+					</li>
 					<?php } ?>
-				</li>
 			<?php } ?>
 			<?php if($login) { ?>
+				<?php if($admin && !isset($pageAdminAffichee)) { ?>
 				<li class="nav-item mx-3">
-				<?php if($admin) { ?>
-				<a class="nav-link btn btn-secondary" href="admin.php">Admin</a>
+					<a class="nav-link btn btn-secondary" href="admin.php">Admin</a>
+				</li>
 				<?php } ?>
-			</li>
+			
 			<li class="nav-item mx-3">
 				<a class="nav-link btn btn-danger" href="deconnexion.php">Déconnexion</a>
 			</li>

@@ -29,6 +29,8 @@
 
 	// On exécute la requête
 	$query->execute();
+
+	$pageAdminAffichee = TRUE;
 ?>
 
 <!DOCTYPE html>
@@ -87,8 +89,6 @@
 				</table>
 			</div>
 		</div>
-
-		<?php include 'footer.php'?>
 
 		<script src="assets/javascript/script.js"></script>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

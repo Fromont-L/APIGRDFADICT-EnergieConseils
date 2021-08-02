@@ -34,6 +34,8 @@
 		return $reponseFinale;
 	}
 
+	$pageTabsAffichee = TRUE;
+
 ?>
 
 <!DOCTYPE html>
@@ -50,11 +52,7 @@
 		<title>API GRDF - Tableau de Bord</title>
 	</head>
 	<body class="index_body">
-		
 
-		
-
-		
 		<?php include 'header.php'?>
 
 		<div class="container my-3">

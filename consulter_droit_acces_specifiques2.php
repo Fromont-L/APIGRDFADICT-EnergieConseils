@@ -177,15 +177,4 @@
 		?>
 		</div>
 	</div>
-
-	<div class="container">
-		<div class="col-12">
-			<p><?= $cmd ?></p>
-			<p><?= var_dump( (array) ((array)json_decode(json_fix(utf8_encode($output[0]))))['resultat']) ?></p>
-		</div>
-	</div>
 </div>
-<br/>
-<br/>
-<br/>
-<br/>
