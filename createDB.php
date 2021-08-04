@@ -41,9 +41,9 @@
 
 	//Vérification sur la création / message d'erreur
 	if ($conn->multi_query($sql) === TRUE) {
-		echo " <br/>L'ajout des valeurs dans la table s'est réalisée avec succès! Le dernier ID inséré est : ";
+		echo " <br/>L'ajout des valeurs dans la base de données s'est réalisée avec succès !";
 	} else {
-		echo "<br/>Erreur... et oui : " . $sql . "<br/>" . $conn->error;
+		echo "<br/>Erreur... et oui : " . $sql . "<br/>" . $conn->error . "<br/><b>Veuillez contacter les créateurs de la page</b>";
 	}
 
 	//Pour fermer la connexion
