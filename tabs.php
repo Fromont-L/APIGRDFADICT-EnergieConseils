@@ -60,7 +60,7 @@
 		</div>
 		
 		<div class="container">
-			<nav class="tab navbar sticky-top navbar-expand-lg navbar-light bg-header">
+			<nav class="tab navbar sticky-top navbar-expand-lg navbar-light bg-header bar11">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2"aria-controls="navbarNav2" aria-expended="false">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -69,16 +69,16 @@
 					</ul>
 					<ul class="navbar-nav mx-3">
 						<button class="tablink btn btn-sm" onclick="openPage('RecupererAccessToken', this, '#FFFFFF')" id="BoutonRecupererAccessToken">Récupérer Access Token</button>
-						<button class="tablink btn btn-sm" onclick="openPage('DeclarerDroitAcces', this, '#FF9D08')" id="BoutonDeclarerDroitAcces">Declarer Droit Acces</button>
+						<button class="tablink btn btn-sm" onclick="openPage('DeclarerDroitAcces', this, '#FFFFFF')" id="BoutonDeclarerDroitAcces">Declarer Droit Acces</button>
 						
-						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDroitAcces', this, '#41CE21')" id="BoutonConsulterDroitAcces">Consulter Droit d'Accès</button>
-						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDroitAccesSpecifiques', this, '#41CE21')" id="BoutonConsulterDroitAccesSpecifiques">Consulter Droit Accès Spécifiques</button>
+						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDroitAcces', this, '#FFFFFF')" id="BoutonConsulterDroitAcces">Consulter Droit d'Accès</button>
+						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDroitAccesSpecifiques', this, '#FFFFFF')" id="BoutonConsulterDroitAccesSpecifiques">Consulter Droit Accès Spécifiques</button>
 
-						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDonneesContractuelles', this, '#41CE21')" id="BoutonConsulterDonneesContractuelles">Consulter Données Contractuelles</button>
-						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDonneesTechniques', this, '#41CE21')" id="BoutonConsulterDonneesTechniques">Consulter Données Techniques</button>
+						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDonneesContractuelles', this, '#FFFFFF')" id="BoutonConsulterDonneesContractuelles">Consulter Données Contractuelles</button>
+						<button class="tablink btn btn-sm" onclick="openPage('ConsulterDonneesTechniques', this, '#FFFFFF')" id="BoutonConsulterDonneesTechniques">Consulter Données Techniques</button>
 
-						<button class="tablink btn btn-sm" onclick="openPage('ConsulterConsommationsPubliees', this, '#41CE21')" id="BoutonConsulterConsommationsPubliees">Consulter Consommation Publiées</button>
-						<button class="tablink btn btn-sm" onclick="openPage('ConsulterConsommationsInformatives', this, '#41CE21')" id="BoutonConsulterConsommationsInformatives">Consulter Consommations Informatives</button>
+						<button class="tablink btn btn-sm" onclick="openPage('ConsulterConsommationsPubliees', this, '#FFFFFF')" id="BoutonConsulterConsommationsPubliees">Consulter Consommation Publiées</button>
+						<button class="tablink btn btn-sm" onclick="openPage('ConsulterConsommationsInformatives', this, '#FFFFFF')" id="BoutonConsulterConsommationsInformatives">Consulter Consommations Informatives</button>
 
 					</ul>
 				</div>

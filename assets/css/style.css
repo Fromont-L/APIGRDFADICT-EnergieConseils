@@ -14,21 +14,99 @@ body
   height: 100vh;
   font-family: "roboto";
 }
+.b1
+{
+
+  background-color: #5dbcf3;
+  border:#e6e2dc solid 2px ;
+  border-radius: 5px 5px 5px 5px;
+}
+.b2
+{
+  background-color: rgb(145, 236, 232);
+  border:#e6e2dc solid 2px ;
+  border-radius: 5px 5px 5px 5px;
+}
+.b3
+{
+  background-color: rgb(145, 236, 232);
+  border:#e6e2dc solid 2px ;
+  border-radius: 5px 5px 5px 5px;
+}
+.b4
+{
+  background-color: rgb(214, 32, 32);
+  border:#e6e2dc solid 2px ;
+  border-radius: 5px 5px 5px 5px;
+}
 .index_body
 {
-	background-color: rgba(10, 71, 128, 0.7);
+	background-color: #4d83b3 !important;
 }
-
+.admin
+{
+  width: 50%;
+}
+tr
+{
+  background-color: #efefef;
+  
+}
 a{
 	text-decoration: none;
 }
+.token1{
+  border-bottom:#eb9a20 solid 2px;
+  box-sizing: content-box;
+  width: 70%;
+  word-break: break-all;
+}
+.token2{
+  border:#eb9a20 solid 2px;
+  padding: 10px;
+  box-sizing: content-box;
+  width: 100%;
+  word-break: break-all;
+}
+
+.bar12 {
+  background-image: url(../image/unnamed.jpg);
+  width: 100%;
+  height:25%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position-y: 35%;
+  box-shadow: 10px 5px 5px rgba(0, 0, 255, .2);
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom:#e6e2dc solid 2px ;
+
+}
+.bar11
+{
+  background-color: #eb9a20;
+  border-radius: 10px 10px 10px 10px;
+  border:#e6e2dc solid 2px ;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.boxresult
+{
+  border:#eb9a20 solid 2px;
+  padding: 10px;
+  box-sizing: content-box;
+  width: 100%;
+  word-break: break-all;
+}
+
 
 .big_title
 {
     margin-top: 20px;
    text-align: center;
    font-family: "redhat";
-   color: #F49A30;
+   color:#eb9a20;
+   text-shadow: 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238), 0 0 2px rgb(241, 240, 238);
    font-weight: bold;
 }
 /* FORMULAIRE */
@@ -421,7 +499,7 @@ div.alert-table{
 }
 
 /* Résultat boîte pour Consulter mes Droits d'Accès / Spécifiques  */
-.boxresult {
+.boxresult{
   border: solid black 2px;
 }
 
